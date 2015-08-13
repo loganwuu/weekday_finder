@@ -7,10 +7,12 @@
         {
             //Arrange
             $test_weekdayFinder = new WeekdayFinder;
-            $date_input = "8/13/2015";
+            $month = 8;
+            $day = 13;
+            $year = 2015;
 
             //Act
-            $result = $test_weekdayFinder->findWeekday($date_input);
+            $result = $test_weekdayFinder->findWeekday($month, $day, $year);
 
             //Assert
             $this->assertEquals("Thursday", $result);
@@ -20,10 +22,12 @@
         {
             //Arrange
             $test_weekdayFinder = new WeekdayFinder;
-            $date_input = "13/8/2015";
+            $month = 13;
+            $day = 8;
+            $year = 2015;
 
             //Act
-            $result = $test_weekdayFinder->findWeekday($date_input);
+            $result = $test_weekdayFinder->findWeekday($month, $day, $year);
 
             //Assert
             $this->assertEquals("Invalid date!", $result);

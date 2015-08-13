@@ -14,32 +14,12 @@ PHP, HTML, CSS, Silex, Twig, PHPUnit, Composer
 ## Specs
 
 1. If user enters 8/13/2015, it should return Thursday.
-    * Input: "8/13/2015"
+    * Input: 8, 13, 2015
     * Output: "Thursday"
 
-2. If user enters 8/14/2015, it should return Friday.
-    * Input: "8/14/2015"
-    * Output: "Friday"
-
-3. If user enters 8/14/2015, it should return Saturday.
-    * Input: "8/15/2015"
-    * Output: "Saturday"
-
-4. If user enters 8/14/2015, it should return Sunday.
-    * Input: "8/16/2015"
-    * Output: "Sunday"
-
-5. If user enters 8/14/2015, it should return Monday.
-    * Input: "8/17/2015"
-    * Output: "Monday"
-
-6. If user enters 8/14/2015, it should return Tuesday.
-    * Input: "8/18/2015"
-    * Output: "Tuesday"
-
-7. If user enters 8/14/2015, it should return Wednesday.
-    * Input: "8/19/2015"
-    * Output: "Wednesday"
+2. If the input date is not valid, return "Invalid date!".
+    * Input: 13, 8, 2015
+    * Output: "Invalid date!"
 
 ## Legal
 
