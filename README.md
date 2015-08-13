@@ -21,6 +21,10 @@ PHP, HTML, CSS, Silex, Twig, PHPUnit, Composer
     * Input: 13, 8, 2015
     * Output: "Invalid date!"
 
+3. If the "year" box is not entered, return "Please enter a year.".
+    * Input: ""
+    * Output: "Please enter a year."
+
 ## Legal
 
 Copyright (c) 2015 **Logan Wu**
