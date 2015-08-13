@@ -1,6 +1,6 @@
 # Weekday Finder
 
-##### A Silex app that displays the day of the week from a date user input. (8/13/2015)
+##### A Silex app that displays the day of the week from a date input by user. (8/13/2015)
 
 #### By Logan Wu
 
