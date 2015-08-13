@@ -21,9 +21,10 @@
     });
 
     $app->get("/view_day", function() use($app) {
-    $my_findDay = new WeekdayFinder;
-    $weekday = $my_findDay>findWeekday($_GET['month'], $_GET['day'], $_GET['year']);
-    return $app['twig']->render('view_day.html.twig', array('result' => $weekday));
+        $my_findDay = new WeekdayFinder;
+        $weekday = $my_findDay->findWeekday($_GET['month'], $_GET['day'], $_GET['year']);
+        return $app['twig']->render('view_day.html.twig', array('result' => $weekday));
     });
 
+    return $app;
 ?>
