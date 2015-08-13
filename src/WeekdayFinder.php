@@ -4,6 +4,7 @@
         function findWeekday($month, $day, $year)
         {
             date_default_timezone_set('UTC');
+            
             if (!checkdate($month, $day, $year)) {
                 return "Invalid date!";
             } else {
