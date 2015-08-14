@@ -1,6 +1,6 @@
 # Weekday Finder
 
-##### A Silex app that displays the day of the week from a date user input. (8/13/2015)
+##### A Silex app that displays the day of the week from a date input by user. (8/13/2015)
 
 #### By Logan Wu
 
@@ -20,6 +20,10 @@ PHP, HTML, CSS, Silex, Twig, PHPUnit, Composer
 2. If the input date is not valid, return "Invalid date!".
     * Input: 13, 8, 2015
     * Output: "Invalid date!"
+
+3. If the "year" box is not entered, return "Please enter a year.".
+    * Input: ""
+    * Output: "Please enter a year."
 
 ## Legal
 
